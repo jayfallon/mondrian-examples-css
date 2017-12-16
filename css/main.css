@@ -1,0 +1,159 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	color: #333333;
+	font-family: 'Average', serif;
+	font-size: calc(18px + 0.25vw);
+}
+
+/* grid layout starts here */
+/* the entire page is a grid layout */
+.wrapper {
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 65% 35%;
+	grid-template-rows: 10% 10% 10% 70% 10%;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+h1 {
+	font-size: calc(24px + 0.25vw);
+}
+
+h1 a {
+	color: #333;
+	text-decoration: none;
+}
+
+h2 {
+	margin: 10px 0;
+}
+
+p {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px solid #cacaca;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	display: flex;
+	justify-content: center;
+}
+
+nav {
+	height: 100px;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+nav ul {
+	margin: 20px auto 0;
+	padding: 0;
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav a {
+	color: #333;
+	font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+	font-size: calc(16px + 0.25vw);
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+main {
+	padding-top: 40px;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	display: grid;
+	grid-template-columns: 80% 20%;
+	grid-template-rows: 100%;
+}
+
+main section {
+	margin-right: 20px;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+main aside {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+aside .image-display {
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+}
+
+footer {
+	margin: 20px 0;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 5;
+	grid-row-end: 6;
+}
+
+section.mondrian {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+#mondrian {
+	background-color: #fafafa;
+	display: flex;
+	justify-content: flex-start;
+	align-content: stretch;
+}
+
+#mondrian div {
+	border-right: 5px solid #333;
+	flex: 1 0 auto;
+}
+
+#mondrian .item01 {
+	background-color: #D50000;
+}
+
+#mondrian .item02 {
+	background-color: #FFD600;
+}
+
+#mondrian .item04 {
+	background-color: #32467E;
+}
+
+#mondrian .item06 {
+	background-color: #D50000;
+}
+
+.example-image {
+	margin-bottom: 20px;
+}

@@ -1,0 +1,128 @@
+section.flex-display {
+	margin-right: 0;
+	height: 723px;
+	color: #fff;
+	font-size: 32px;
+	font-weight: bold;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	display: flex;
+	justify-content: flex-start;
+	-ms-align-items: stretch;
+	align-items: stretch;
+}
+
+.mondrian-flex {
+	flex: 1 0 auto;
+	display: grid;
+	grid-template-columns: 100%;
+	display: flex;
+}
+
+.column01 {
+	border-right: 5px solid #333;
+	flex: 3 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.column02 {
+	border-right: 5px solid #333;
+	flex: 1 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.column01 div, .column02 div, .subcolumn02 div, .subcolumn01a div, .subcolumn01b div  {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-self: stretch;
+	align-self: stretch;
+}
+
+.column03 {
+	flex: 3 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.subcolumn01 {
+	flex: 1 0 auto;
+	display: flex;
+}
+
+.subcolumn01a {
+	border-right: 5px solid #333;
+	flex: 2 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+ .subcolumn01b {
+ 	flex: 1 0 auto;
+ 	display: flex;
+	flex-direction: column;
+}
+
+.subcolumn02 {
+	flex: 1 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+div.item1 {
+	background-color: #D50000;	
+	border-bottom: 5px solid #333;
+	flex: 4 0 auto;
+}
+div.item2 {
+	background-color: #FFD600;
+	border-bottom: 5px solid #333;
+	flex: 1 0 auto;
+}
+div.item3 {
+	background-color: #f2f2f2;
+	border-bottom: 5px solid #333;
+	color: #333;
+	flex: 2 0 auto;
+}
+div.item4 {
+	background-color: #D50000;
+	border-bottom: 5px solid #333;
+	flex: 1 0 auto;
+}
+div.item5 {
+	background-color: #f2f2f2;
+	border-bottom: 5px solid #333;
+	color: #333;
+	flex: 3 0 auto;
+}
+div.item6 {
+	background-color: #32467E;
+	border-bottom: 5px solid #333;
+	flex: 1 0 auto;
+}
+div.item7 {
+	background-color: #f2f2f2;
+	border-bottom: 5px solid #333;
+	color: #333;
+	flex: 2 0 auto;
+}
+div.item8 {
+	background-color: #f2f2f2;
+	border-bottom: 0;
+	color: #333;
+	flex: 2 0 auto;
+}
+div.item9 {
+	background-color: #32467E;
+	border-bottom: 0;
+	flex: 2 0 auto;
+}
+div.item10 {
+	background-color: #FFD600;
+	border-right: 0;
+	border-bottom: 0;
+	flex: 1 0 auto;
+}

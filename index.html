@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Mondrian Image Example</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/grid-reordering.css">
+	<link rel="stylesheet" href="css/mondrian-data.css">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Average" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<h1>
+				<a href="index.html">
+					<span>
+						Mondrian Examples with CSS
+					</span>
+				</a>
+			</h1>
+		</header>
+		<nav role="navigation">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="mondrian-grid.html">Grid</a></li>
+				<li><a href="flex-layout.html">Flexbox</a></li>
+				<li><a href="mondrian-table.html">Table</a></li>
+				<li><a href="grid-reordering.html">Reordering</a></li>
+			</ul>
+		</nav>
+		<section class="mondrian">
+			<div id="mondrian">
+				<div class="item01">&nbsp;</div>
+				<div class="item02">&nbsp;</div>
+				<div class="item03">&nbsp;</div>
+				<div class="item04">&nbsp;</div>
+				<div class="item05">&nbsp;</div>
+				<div class="item06">&nbsp;</div>
+				<div class="item07">&nbsp;</div>
+			</div>
+		</section>
+		<main>
+			<section>
+				<h2>Mondrian</h2>
+				<p>Piet Mondrian (7 March 1872 – 1 February 1944), was a world famous Dutch painter and cofounder of the De Stijl movement and the creator of Neoplasticism, where he limited his vocabulary to three primary colors, the three primary values and two primary directions, horizontal and vertical. You can read more about him at <a href="http://www.piet-mondrian.org/" target="_blank">Piet Mondrian</a>.</p>
+				<article class="mondrian-data">
+					<div class="mondrian-data-display">
+						<div class="mondrian-data-01">Mondrian's Places of Residence</div>
+						<div class="mondrian-data-02">Amersfoort</div>
+						<div class="mondrian-data-03">Winterswijk</div>
+						<div class="mondrian-data-04">Amsterdam</div>
+						<div class="mondrian-data-05">Paris</div>
+						<div class="mondrian-data-06">Laren</div>
+						<div class="mondrian-data-07">Paris</div>
+						<div class="mondrian-data-08">London</div>
+						<div class="mondrian-data-09">New York</div>
+						<div class="mondrian-data-010">Netherlands</div>
+						<div class="mondrian-data-011">Netherlands</div>
+						<div class="mondrian-data-012">Netherlands</div>
+						<div class="mondrian-data-013">Netherlands</div>
+						<div class="mondrian-data-014">France</div>
+						<div class="mondrian-data-015">France</div>
+						<div class="mondrian-data-016">United Kingdom</div>
+						<div class="mondrian-data-017">United States</div>
+						<div class="mondrian-data-018">1872</div>
+						<div class="mondrian-data-019">1880</div>
+						<div class="mondrian-data-020">1892</div>
+						<div class="mondrian-data-021">1911</div>
+						<div class="mondrian-data-022">1914</div>
+						<div class="mondrian-data-023">1919</div>
+						<div class="mondrian-data-024">1938</div>
+						<div class="mondrian-data-025">1940</div>
+						<div class="mondrian-data-026">Year</div>
+						<div class="mondrian-data-027">City</div>
+						<div class="mondrian-data-028">Country</div>
+					</div>
+				</article>
+				<h2>What are we doing?</h2>
+				<img src="img/mondrian-example.png" alt="The Mondrian Example" class="example-image">
+				<p>So we're going to explore how to recreate the above image using CSS and HTML. I've taken three separate approaches to this: Grid, Flexbox and Table. I could've done Float and Positioning as well but both of those are fairly simple and not required for this project.</p>
+				<h2>Grid</h2>
+				<p>Using the grid to recreate the image was actually fairly easy and a lot of fun. I've never used grid in a project before so I was only slightly familiar with it, but once I figured out the concepts it became as easy as designing a jigsaw puzzle and then just dropping the pieces into place. Everything fits nicely and is easy to play with once you get the hang of it. See <a href="mondrian-grid.html">the Mondrian Grid example</a> for more detail.</p>
+				<section class="image-display">
+					<div class="image-grid">
+						<div class="item01"><span>1</span></div>
+						<div class="item02"><span>2</span></div>
+						<div class="item03"><span>3</span></div>
+						<div class="item04"><span>4</span></div>
+						<div class="item05"><span>5</span></div>
+						<div class="item06"><span>6</span></div>
+						<div class="item07"><span>7</span></div>
+						<div class="item08"><span>8</span></div>
+						<div class="item09"><span>9</span></div>
+						<div class="item010"><span>10</span></div>
+						<div class="item011"><span>11</span></div>
+						<div class="item012"><span>12</span></div>
+						<div class="item013"><span>13</span></div>
+						<div class="item014"><span>14</span></div>
+						<div class="item015"><span>15</span></div>
+						<div class="item016"><span>16</span></div>
+						<div class="item017"><span>17</span></div>
+						<div class="item018"><span>18</span></div>
+						<div class="item019"><span>19</span></div>
+						<div class="item020"><span>20</span></div>
+						<div class="item021"><span>21</span></div>
+						<div class="item022"><span>22</span></div>
+						<div class="item023"><span>23</span></div>
+						<div class="item024"><span>24</span></div>
+						<div class="item025"><span>25</span></div>
+						<div class="item026"><span>26</span></div>
+						<div class="item027"><span>27</span></div>
+						<div class="item028"><span>28</span></div>
+						<div class="item029"><span>29</span></div>
+						<div class="item030"><span>30</span></div>
+						<div class="item031"><span>31</span></div>
+						<div class="item032"><span>32</span></div>
+						<div class="item033"><span>33</span></div>
+						<div class="item034"><span>34</span></div>
+						<div class="item035"><span>35</span></div>
+						<div class="item036"><span>36</span></div>
+						<div class="item037"><span>37</span></div>
+						<div class="item038"><span>38</span></div>
+						<div class="item039"><span>39</span></div>
+						<div class="item040"><span>40</span></div>
+						<div class="item041"><span>41</span></div>
+						<div class="item042"><span>42</span></div>
+					</div>
+				</section>
+				<h2>FlexBox</h2>
+				<p>With the Flexible Box Module <a href="mondrian-flexbox.html">I ran into a little bit more trouble</a> as at first I was just going to freehand the thing without using an actual grid, but then after watching a certain video I figured out that I should be using flexbox with a grid instead. I'd been using <a href="http://lostgrid.org/" target="_blank">the LostGrid</a> as part of my PostCSS implementations for the past couple of years, but I don't think I'll be doing that any more as writing everything out makes a lot more sense. Lesson learned. With my first attempt I achieve the same kind of accuracy as I did with the grid version, but <a href="flex-layout.html">my second attempt</a> came out a lot better.</p>
+				<h2>Table</h2>
+				<p>Don't count tables out, they're still the standard for displaying data, until I start doing it in a grid that is. I got my start with tabular layout and made a good life out of using them so I'm not going to knock them too hard, but if you <a href="mondrian-table.html">look at the underlying HTML</a>, there's absolutely no way that I'm going to be able to hand this over to someone and expect them to figure out what's going on.</p>
+			</section>
+			<aside>
+				<div class="image-display">
+					<div><img src="img/mondrian-01.png" alt="Mondrian Painting" width="200"></div>
+					<div><img src="img/mondrian-02.jpg" alt="Mondrian Painting" width="200"></div>
+					<div><img src="img/mondrian-03.jpg" alt="Mondrian Painting" width="200"></div>
+					<div><img src="img/mondrian-04.jpg" alt="Mondrian Painting" width="200"></div>
+				</div>
+			</aside>
+		</main>
+		<footer>
+			<div class="footer-text">
+				&copy;2017 - Mondrian Examples - Jay Fallon
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

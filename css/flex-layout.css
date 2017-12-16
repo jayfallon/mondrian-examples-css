@@ -1,0 +1,236 @@
+html {
+	box-sizing: border-box;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	color: #333333;
+	font-family: 'Average', serif;
+	font-size: calc(18px + 0.25vw);
+}
+
+header {
+	border-bottom: 1px solid #cacaca;
+	display: flex;
+	justify-content: center;
+}
+
+nav {
+	height: 75px;
+}
+
+nav ul {
+	margin: 20px auto 0;
+	padding: 0;
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav a {
+	color: #333;
+	font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+	font-size: calc(16px + 0.25vw);
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+h1 {
+	font-size: calc(24px + 0.25vw);
+}
+
+h1 a {
+	color: #333;
+	text-decoration: none;
+}
+
+h4 {
+	margin: 0;
+	padding: 0 0 12px;
+}
+
+img {
+	width: 100%;
+	max-width: 200px;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+#mondrian {
+	background-color: #fafafa;
+	display: flex;
+	justify-content: flex-start;
+	align-content: stretch;
+}
+
+#mondrian div {
+	border-right: 5px solid #333;
+	flex: 1 0 auto;
+}
+
+#mondrian .item01 {
+	background-color: #D50000;
+}
+
+#mondrian .item02 {
+	background-color: #FFD600;
+}
+
+#mondrian .item04 {
+	background-color: #32467E;
+}
+
+#mondrian .item06 {
+	background-color: #D50000;
+}
+
+footer {
+	margin: 20px 0;
+}
+
+main {
+	padding-top: 40px;
+	display: flex;
+}
+
+.aside-content {
+	width: 200px;
+}
+
+/* the flexbox grid starts here */
+
+.row {
+	width: 780px;
+	display: flex;
+}
+
+.row div {
+	height: calc(540px / 11);
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.row div span {
+	width: calc(780px / 16);
+	text-align: center;
+}
+
+.row-item-01 {
+	width: calc(780px / 16);
+}
+
+.row-item-02 {
+	width: calc((780px / 16)*2);
+}
+
+.row-item-03 {
+	width: calc((780px / 16)*3);
+}
+
+.row-item-04 {
+	width: calc((780px / 16)*4);
+}
+
+.row-item-05 {
+	width: calc((780px / 16)*5);
+}
+
+.row-item-06 {
+	flex: 6 0 auto;
+}
+
+.color-01 {
+	background-color: #D50000;
+}
+
+.color-02 {
+	background-color: #32467E;
+}
+
+.color-03 {
+	background-color: #FFD600;
+}
+
+.color-04 {
+	background-color: #f2f2f2;
+	color: #333 !important;
+}
+
+.right {
+	border-right: 5px solid #333;
+}
+
+.bottom {
+	border-bottom: 5px solid #333;
+}
+
+/* flexbox grid reordering*/
+.row:nth-child(1) div:nth-child(1) {
+	order: 3;
+}
+
+.row:nth-child(1) div:nth-child(2) {
+	order: 6;
+}
+
+.row:nth-child(1) div:nth-child(3) {
+	order: 5;
+}
+
+.row:nth-child(1) div:nth-child(4) {
+	order: 2;
+}
+
+.row:nth-child(1) div:nth-child(5) {
+	order: 1;
+}
+
+.row:nth-child(1) div:nth-child(6) {
+	order: 4;
+}
+
+.row:nth-child(1) div:nth-child(7) {
+	order: 7;
+}
+
+.row:nth-child(5) div:first-child {
+	order: 4;
+}
+
+.row:nth-child(5) div:nth-child(2) {
+	order: 5;
+}
+
+.row:nth-child(5) div:nth-child(3) {
+	order: 2;
+}

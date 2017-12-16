@@ -1,0 +1,74 @@
+DGMD E-20 Assignment 4
+
+Your name:
+
+1. Provide a link to the first page of your website:
+https://jayfallon-assignment-4.now.sh/
+
+My site looks the way I want on (choose one): Mac
+
+With this browser (choose one): Chrome 
+
+
+PART 1A FLEXBOX GAME
+2. Take a screenshot of the "winning" final screen for either game. Set this aside to include in your final submitted zip file.
+https://jayfallon-assignment-4.now.sh/jayfallon-flexbox-froggy.png
+
+
+PART 1B FLEXBOX LAYOUT
+Provide URL(s) and starting line number(s) for HTML and CSS for each item. 
+
+3.URL for the page coded with Flexbox grid layout. In the CSS, include a comment for where the Flexbox grid layout starts.
+https://jayfallon-assignment-4.now.sh/flex-layout.html
+https://jayfallon-assignment-4.now.sh/css/flex-layout.css - line #125
+
+4. Number of columns used in your grid system: 16
+
+5. HTML and CSS line numbers for where grid reordering occurs:
+https://jayfallon-assignment-4.now.sh/flex-layout.html - line #44 & #78
+https://jayfallon-assignment-4.now.sh/css/flex-layout.css - line #196
+
+
+PART 2A MONDRIAN PAINTING
+6. URL for your coded Mondrian painting:
+https://jayfallon-assignment-4.now.sh/mondrian-grid.html
+https://jayfallon-assignment-4.now.sh/css/mondrian-grid.css
+
+
+PART 2B GRID LAYOUT
+7. URL for the page coded with Grid layout. In the CSS, include a comment for where the Grid layout starts.
+https://jayfallon-assignment-4.now.sh/index.html
+https://jayfallon-assignment-4.now.sh/css/main.css - line #10
+
+8. HTML and CSS line numbers for where grid reordering occurs:
+https://jayfallon-assignment-4.now.sh/index.html - line #85
+https://jayfallon-assignment-4.now.sh/css/grid-reordering.css - line #26
+
+9. HTML and CSS line numbers for where grid offset OR nested grid occurs:
+https://jayfallon-assignment-4.now.sh/index.html - line #48
+https://jayfallon-assignment-4.now.sh/css/mondrian-data.css - line #1
+
+PART 3 CSS CALC
+Provide URL(s) and starting line number(s) for HTML and CSS for each item. 
+
+10. Calc used here #1:
+https://jayfallon-assignment-4.now.sh/css/main.css - line #7
+Applies to basic font sizes for the website
+
+11. Calc used here #2:
+https://jayfallon-assignment-4.now.sh/css/grid-reordering.css - line #15
+https://jayfallon-assignment-4.now.sh/grid-reordering.html - line #45
+
+12. Calc used here #3:
+https://jayfallon-assignment-4.now.sh/css/flex-layout.css - line #48
+https://jayfallon-assignment-4.now.sh/flex-layout.html - line #44
+
+
+
+PART 4: CSS LAYOUT PAPER
+If you have created a .DOC(X) file, PDF file, or a text file, zip it as part of your submission. 
+https://jayfallon-assignment-4.now.sh/jayfallon-reflection.pdf
+
+If you want to use Google Docs or similar online service, indicate a URL where we might find your paper:
+
+
